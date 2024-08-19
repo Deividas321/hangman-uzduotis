@@ -1,5 +1,5 @@
 import React from 'react';
-import kartuves from '../public/kartuves.jpg'
+import kartuves from '/kartuves.jpg'
 
 
 function HangmanDrawing({ incorrectGuesses }) {
