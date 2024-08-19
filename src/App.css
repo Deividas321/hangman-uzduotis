@@ -132,7 +132,11 @@ body {
   .hangman-game {
     width: 100%;
   }
-  
+  @media (max-width: 800px) {
+    img {
+        display: none;
+    }
+}
   .word {
     font-size: 20px;
     letter-spacing: 5px;
