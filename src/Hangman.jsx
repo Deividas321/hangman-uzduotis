@@ -2,7 +2,29 @@ import React, { useState, useEffect } from 'react';
 import Keyboard from './Keyboard';
 import HangmanDrawing from './HangmanDrawing';
 
-const words = ['react', 'hangman', 'javascript', 'programming' ,'images',];
+const words = [
+  'react',
+  'hangman',
+  'javascript',
+  'programming',
+  'images',
+  'development',
+  'framework',
+  'application',
+  'frontend',
+  'backend',
+  'component',
+  'interface',
+  'algorithm',
+  'function',
+  'variable',
+  'testing',
+  'deployment',
+  'repository',
+  'database',
+  'performance',
+  'optimization'
+];
 
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)];
